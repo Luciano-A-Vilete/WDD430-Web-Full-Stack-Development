@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Documentos/BYU/Bachelor%20of%20Software%20Development/WDD430%20-%20Web%20Full-Stack%20Development/WDD430-Web-Full-Stack-Development/app/like-button.js"],"sourcesContent":["'use client';\r\n \r\nimport { useState } from 'react';\r\n \r\nexport default function LikeButton() {\r\n  const [likes, setLikes] = useState(0);\r\n \r\n  function handleClick() {\r\n    setLikes(likes + 1);\r\n  }\r\n \r\n  return <button onClick={handleClick}>Like ({likes})</button>;\r\n}"],"names":["LikeButton","likes","setLikes","handleClick","onClick"],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAASA;IACtB,MAAM,CAACC,OAAOC,SAAS,GAAG,IAAA,iNAAQ,EAAC;IAEnC,SAASC;QACPD,SAASD,QAAQ;IACnB;IAEA,qBAAO,8OAAC;QAAOG,SAASD;;YAAa;YAAOF;YAAM;;;;;;;AACpD"}},
+    {"offset": {"line": 35, "column": 0}, "map": {"version":3,"sources":["file:///D:/Documentos/BYU/Bachelor%20of%20Software%20Development/WDD430%20-%20Web%20Full-Stack%20Development/WDD430-Web-Full-Stack-Development/node_modules/next/src/server/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.ts"],"sourcesContent":["module.exports = (\n  require('../../module.compiled') as typeof import('../../module.compiled')\n).vendored['react-ssr']!.ReactJsxDevRuntime\n"],"names":["module","exports","require","vendored","ReactJsxDevRuntime"],"mappings":"AAAAA,OAAOC,OAAO,GACZC,QAAQ,4HACRC,QAAQ,CAAC,YAAY,CAAEC,kBAAkB","ignoreList":[0]}}]
+}

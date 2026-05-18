@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Documentos/BYU/Bachelor%20of%20Software%20Development/WDD430%20-%20Web%20Full-Stack%20Development/WDD430-Web-Full-Stack-Development/app/page.js"],"sourcesContent":["import { useState } from 'react';\r\n \r\nfunction Header({ title }) {\r\n  return <h1>{title ? title : 'Default title'}</h1>;\r\n}\r\n \r\nexport default function HomePage() {\r\n  // ...\r\n}"],"names":["Header","title","HomePage"],"mappings":";;;;;AAAA;;;AAEA,SAASA,OAAO,EAAEC,KAAK,EAAE;IACvB,qBAAO,8OAAC;kBAAIA,QAAQA,QAAQ;;;;;;AAC9B;AAEe,SAASC;AACtB,MAAM;AACR"}}]
+}
